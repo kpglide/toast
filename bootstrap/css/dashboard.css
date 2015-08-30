@@ -25,7 +25,20 @@ body {
   border: 0;
 }
 
-/*.navbar-inverse {
+/*
+ * Cause toaster icon in nav bar to not float to left
+ */
+
+#toaster {
+  float: none;
+  display: inline;
+}
+
+/*
+ * Below are some styles I was testing for adding
+ * a purple color scheme.
+
+.navbar-inverse {
   background-color: #6f5499;
 }
 
@@ -35,11 +48,6 @@ body {
 
 .navbar-nav {
   color: #fff;
-}
-
-#toaster {
-  float: none;
-  display: inline;
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
@@ -69,7 +77,10 @@ body {
 .form-control {
     background-color: #fff;
     box-shadow: 0 1px 1px #9d9d9d inset;
-}*/
+}
+ 
+ * End of styles for purple nav bar
+ */
 
 /*
  * Sidebar
