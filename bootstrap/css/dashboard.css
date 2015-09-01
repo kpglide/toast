@@ -7,7 +7,22 @@ body {
   padding-top: 50px;
 }
 
+/* Google fonts */
+body {
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+  font-size: medium;
+}
 
+h1, h2 {
+    font-family: 'Molengo', Georgia, Times, serif;
+}
+
+.red {
+  color: #ff534b;
+  font-style: normal;
+  display: block;
+}
+ 
 /*
  * Global add-ons
  */
@@ -159,4 +174,13 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+#team_type {
+  background-image: url('../../images/toaster.jpg');
+  background-position: 6rem 7rem, top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  overflow: auto;
 }
